@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css" >
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Car Brain</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">home</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./img/Tesla Model S.avif" class="d-block mx-lg-auto img-fluid" alt="Tesla" width="600" height="450" loading="lazy">
+            <p></p>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Tesla Model S</h1>
+            <p class="lead">
+              The Model S is the bigger sister of the model 3. it was first produced in 2012 and it's still being produced today. The model S is a battery powered car (its electric)
+              with dual-motors and it is all wheel drive but there earlier models where rear wheel drive. There was a high performance version of it released called the plaid and the 
+              which also had an optional track pack.
+            </p>
+
+            <p class="lead">
+              The model S has a 0-60 mp/h of 3.1s With rollout subtracted (This is when they let the car move abit before starting the timer). It has a range of 402 miles (647km) and the
+              maximum power output is 670hp, where as the plaid has a 359 miles (578km) range due to its higher performance. The performance comes in the form of 1020hp and a 0-60 of 1.99
+              sec of a top speed of 203 mp/h or 328 km/h. The track pack on the Model S plaid adds upgraded brakes, better tuned suspension and track ready tires.
+            </p>
+
+            <p class="lead">
+              The Model S also comes with Tesla's Autopilot which enables your car to steer, accelerate and brake automatically within its lane under your active supervision. The owner can
+              also "call" the car using the summon function that retrieves your car. It also comes with a Autopark function that will park the car for you.
+            </p>
+
+            <p class="lead">
+              In my opinion this cars interior looks too boring and i don't think i would survive with it but i would buy it for its performance.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">Oletilwe lephalala © 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

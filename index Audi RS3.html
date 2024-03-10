@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi RS3</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Car Brain</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">home</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./img/RS3.webp" class="d-block mx-lg-auto img-fluid" alt="Audi RS3" width="600" height="450" loading="lazy">
+            <img src="./img/2013 RS3.jpg" class="d-block mx-lg-auto img-fluid" alt="Audi RS3" width="600" height="450" loading="lazy">
+
+            <p></p>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Audi RS3</h1>
+            <p class="lead">
+                The Audi RS3 is part of the Audi A3 lineup but is enhanced with sportier features and more powerful engines. The powerful engine in question is its world famous 2.5L
+                inline 5-cylinder engine that produces 394 if you are in europe and 401 hp in the states. It does the 0-62 mp/h in 3.6sec and with the dynamic pack option ticked it reaches
+                a top speed of 180mph. These figures are for the latest RS3.
+            </p>
+
+                <p class="lead">
+                  Like its biggest rival the A45s the RS3 can now also drift with the help of its TORQUE SPLITTER. The torque splitter uses a separate clutch on each side of the rear 
+                  driveshaft to allow it to shove 100 per cent of the available torque to whichever wheel the system desires basically drifting the car. No one ever thought of hearing 
+                  the words drift and quattro in the same line before now.          
+                </p>
+
+                <p class="lead"><b>P.S.</b> for the people that didnt know (and they are alot) the Quattro system isnt fully Audi's system. It a system called Haldex system and it is manufactured
+                  by a swedish company. 
+                </p>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">Oletilwe lephalala © 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

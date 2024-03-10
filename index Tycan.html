@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaqueries.css" >
+
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Car Brain</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">home</a></li>
+           
+        </div>
+    </div>
+</nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./img/Taycan Turbo.jpg" class="d-block mx-lg-auto img-fluid" alt="Tycan" width="600" height="450" loading="lazy">
+            <img src="./img/Taycan Turbo Cross Turismo.jpg" class="d-block mx-lg-auto img-fluid" alt="Tycan" width="600" height="450" loading="lazy">
+            <p></p>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Porsche Tycan</h1>
+            <p class="lead">
+              This is the first fully electric car from Porsche and its called the Porsche Tycan and they in 3 variants the saloon sport, sport Turismo and the Cross Turismo. The Tycan
+              has a maximum range of 678 km on one charge and it takes nearly 20min to charge. 
+            </p>
+
+            <p class="lead">
+              Its probably sounds weird to hear me say this car has a gearbox conceduring its a fully electric car but this is the case, it has a 2 stage gearbox with upto 410 Nm.
+              It comes with air suspension as standard but has rear wheel steering as an optional extra which would be most useful on a track day.
+            </p>
+
+            <p class="lead">
+              There is the standard Tycan that does 0-100 in 4.8 sec which is impressive for a electric car that weighs more than 2 tons but it only gets better from here, and a bit more wierd.
+              Next we have the Tycan 4s which the famous 0-100 in 3.7 sec which has a top speed of 250km/h. It is followed by the Tycan turbo, i did say it would get weird didn't i??, this 
+              tycan does it in 2.7 sec and then the last one is the Tycan Turbo S which does the 0-100 in 2.4 sec and has a top speed of 260km/h.
+            </p>
+
+            <p class="lead">
+              Firstly the top speed mentioned above are limited and i very much know it is <b>way</b> faster then those numbers, secondly the Tycan Turbo and Turbo S don't actually have
+              a turbo this is Porsche's way of showing their higher performance verient from their standard lineup. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">Oletilwe lephalala © 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
